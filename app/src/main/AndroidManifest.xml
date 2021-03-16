@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.EMall">
-        <activity android:name=".ForgetPasswordActivity"></activity>
+        <activity android:name=".ResetPasswordActivity"></activity>
+        <activity android:name=".ForgetPasswordVerificationActivity" />
         <activity android:name=".VerificationActivity" />
         <activity android:name=".HomeActivity" />
         <activity android:name=".SignUpActivity" />
