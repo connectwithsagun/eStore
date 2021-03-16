@@ -13,7 +13,7 @@ public class ForgetPasswordVerificationActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_forget_password);
+        setContentView(R.layout.activity_forget_password_verification);
 
         btVerify=findViewById(R.id.btVerify);
 
