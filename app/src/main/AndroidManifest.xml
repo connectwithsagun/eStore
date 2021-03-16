@@ -10,7 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.EMall">
         <activity android:name=".ResetPasswordActivity"></activity>
-        <activity android:name=".ForgetPasswordVerificationActivity" />
+        <activity
+            android:name=".ForgetPasswordVerificationActivity"
+            android:label="Forgot Password"
+            android:parentActivityName=".LoginActivity" />
         <activity android:name=".VerificationActivity" />
         <activity android:name=".HomeActivity" />
         <activity android:name=".SignUpActivity" />
