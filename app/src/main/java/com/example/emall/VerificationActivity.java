@@ -15,13 +15,7 @@ public class VerificationActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_verification);
 
-//        // Take instance of Action Bar
-//        // using getSupportActionBar and
-//        // if it is not Null
-//        // then call hide function
-//        if (getSupportActionBar() != null) {
-//            getSupportActionBar().hide();
-//        }
+
 
 
         btVerify=findViewById(R.id.btVerify);

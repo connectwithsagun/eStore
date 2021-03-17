@@ -14,7 +14,12 @@
             android:name=".ForgetPasswordVerificationActivity"
             android:label="Forgot Password"
             android:parentActivityName=".LoginActivity" />
-        <activity android:name=".VerificationActivity" />
+
+        <activity
+            android:name=".VerificationActivity"
+            android:label="Verification"
+            android:parentActivityName=".SignUpActivity" />
+
         <activity android:name=".HomeActivity" />
         <activity android:name=".SignUpActivity" />
         <activity android:name=".LoginActivity">

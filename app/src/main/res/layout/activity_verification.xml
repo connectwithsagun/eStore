@@ -27,7 +27,7 @@
         android:drawableLeft="@drawable/verification_icon"
         android:drawablePadding="5dp"
         android:padding="8dp"
-        android:textColor="#0B0A0A"
+        android:textColor="@color/black"
         android:textSize="16sp" />
 
     <Button
@@ -42,7 +42,7 @@
         android:textColor="#FFFFFF"
         android:textSize="14sp"
         android:textStyle="bold"
-        app:backgroundTint="#654949"
+        app:backgroundTint="@color/primary"
 
         />
 
