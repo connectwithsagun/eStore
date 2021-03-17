@@ -43,7 +43,7 @@
         android:padding="8dp"
 
         android:textColor="@color/black"
-        android:textSize="18sp" />
+        android:textSize="16sp" />
 
     <EditText
         android:id="@+id/etPassword"
@@ -60,7 +60,7 @@
         android:drawablePadding="5dp"
         android:padding="8dp"
         android:textColor="@color/black"
-        android:textSize="18sp" />
+        android:textSize="16sp" />
 
     <TextView
         android:id="@+id/tvForgetPassword"
@@ -85,7 +85,7 @@
         android:layout_marginRight="@dimen/margin_right"
         android:text="LOGIN"
         android:textColor="#FFFFFF"
-        android:textSize="20sp"
+        android:textSize="18sp"
         android:textStyle="bold"
         app:backgroundTint="@color/primary"
 
@@ -112,7 +112,7 @@
         android:layout_marginTop="27dp"
         android:text="Register Now"
         android:textColor="@color/black"
-        android:textSize="22sp"
+        android:textSize="18sp"
         android:textStyle="bold" />
 
     <TextView
@@ -123,12 +123,10 @@
         android:layout_marginTop="25dp"
         android:text="Skip"
         android:textColor="@color/black"
-        android:textSize="16sp"
-        android:textStyle="bold"
+        android:textSize="14sp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_marginRight="@dimen/margin_right"
         />
-
 
 </RelativeLayout>

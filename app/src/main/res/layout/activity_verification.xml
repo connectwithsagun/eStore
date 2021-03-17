@@ -40,7 +40,7 @@
         android:layout_marginRight="@dimen/margin_right"
         android:text="VERIFY"
         android:textColor="#FFFFFF"
-        android:textSize="14sp"
+        android:textSize="18sp"
         android:textStyle="bold"
         app:backgroundTint="@color/primary"
 

@@ -129,7 +129,7 @@
         android:layout_marginRight="@dimen/margin_right"
         android:text="REGISTER"
         android:textColor="#FFFFFF"
-        android:textSize="14sp"
+        android:textSize="18sp"
         android:textStyle="bold"
         app:backgroundTint="@color/primary"
 
@@ -145,7 +145,7 @@
         android:layout_marginTop="10dp"
         android:text="Already have an account?"
         android:textColor="@color/black"
-        android:textSize="18sp" />
+        android:textSize="12sp" />
 
 
     <TextView
@@ -157,7 +157,7 @@
         android:layout_marginTop="10dp"
         android:text="Login"
         android:textColor="@color/black"
-        android:textSize="14sp"
+        android:textSize="18sp"
         android:textStyle="bold" />
 
 
