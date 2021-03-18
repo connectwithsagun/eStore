@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">eMall</string>
+
+    <string-array name="array_technology">
+        <item>Account Information</item>
+        <item>Address Book</item>
+        <item>General</item>
+        <item>Policies</item>
+        <item>Help</item>
+
+    </string-array>
+
 </resources>

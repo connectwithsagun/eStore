@@ -55,7 +55,7 @@ public class LoginActivity extends AppCompatActivity {
         tvForgetPassword.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(LoginActivity.this, ForgetPasswordVerificationActivity.class));
+                startActivity(new Intent(LoginActivity.this, PasswordResetEmailVerificationActivity.class));
             }
         });
 

@@ -9,25 +9,42 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.EMall">
-        <activity android:name=".ResetPasswordActivity"></activity>
+        <activity
+            android:name=".NotificationActivity"
+            android:label="Notification"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".SettingsActivity"
+            android:label="Settings"
+            android:parentActivityName=".HomeActivity">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+        <activity
+            android:name=".PasswordResetEmailVerificationActivity"
+            android:label="Forget Password"
+            android:parentActivityName=".LoginActivity" />
+        <activity
+            android:name=".ResetPasswordActivity"
+            android:label="Reset Password"
+            android:parentActivityName=".ForgetPasswordVerificationActivity" />
         <activity
             android:name=".ForgetPasswordVerificationActivity"
-            android:label="Forgot Password"
-            android:parentActivityName=".LoginActivity" />
-
+            android:label="Verify Code"
+            android:parentActivityName=".PasswordResetEmailVerificationActivity" />
         <activity
             android:name=".VerificationActivity"
             android:label="Verification"
             android:parentActivityName=".SignUpActivity" />
-
         <activity android:name=".HomeActivity" />
         <activity android:name=".SignUpActivity" />
         <activity android:name=".LoginActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name=".MainActivity" />
     </application>

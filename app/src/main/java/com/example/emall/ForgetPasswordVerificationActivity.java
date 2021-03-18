@@ -8,16 +8,16 @@ import android.view.View;
 import android.widget.Button;
 
 public class ForgetPasswordVerificationActivity extends AppCompatActivity {
-    Button btVerify;
+    Button btSubmit;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_forget_password_verification);
 
-        btVerify=findViewById(R.id.btVerify);
+        btSubmit=findViewById(R.id.btSubmit);
 
-        btVerify.setOnClickListener(new View.OnClickListener() {
+        btSubmit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(ForgetPasswordVerificationActivity.this,ResetPasswordActivity.class));
